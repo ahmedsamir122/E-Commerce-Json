@@ -1,0 +1,11 @@
+.main {
+    background-color: rgb(243, 243, 243);
+    flex: 1;
+    padding: 1.5em;
+    position: relative;
+}
+
+.main h2:first-of-type {
+    padding-bottom: 1em;
+    border-bottom: 1px solid black;
+}

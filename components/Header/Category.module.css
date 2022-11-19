@@ -1,0 +1,18 @@
+.select {
+    padding: 0.5em;
+    color: white;
+    background-color: black;
+        padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.select:focus,
+.select:active
+{
+    outline: none;
+}
+.option {
+    background-color: black;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}

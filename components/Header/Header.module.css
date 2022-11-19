@@ -1,0 +1,47 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em ;
+    background-color: black;
+    box-sizing: border-box;
+    height: 72.4px;
+}
+.logo {
+    color: rgb(255, 255, 255);
+}
+.icon {
+    color: white;
+}
+.profile,
+.register
+{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.profile span{
+    display: block;
+    padding-right: 0.3em;
+    color: white;
+}
+
+.register span:nth-of-type(1){
+    display: block;
+    padding-right: 0.3em;
+    color: white;
+}
+
+.notes {
+    position: relative;
+    left: -0.4em;
+    bottom: 0.4em;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+    text-align: center;
+}

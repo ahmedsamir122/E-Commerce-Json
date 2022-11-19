@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    width: 50%;
+    border: 1px solid black;
+}
+.button {
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+    width: 5%;
+    cursor: pointer;
+}
+.icon {
+    height: 2em;
+}
+.input {
+    width: 95%;
+    border: none;
+    padding-left: 0.5em;
+}
+.input:focus {
+    outline: none;
+}
+@media (max-width:767px) {
+    .form{
+        display: none;
+    }
+}

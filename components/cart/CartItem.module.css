@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 2em;
+    position: relative;
+}
+.main img {
+    display: block;
+}
+.info {
+    display: flex;
+    box-sizing: border-box;
+}
+.imgInfo {
+    padding-left: 1em;
+    box-sizing: border-box;
+}
+.info p{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main ul{
+    display: flex;
+    box-sizing: border-box;
+    min-width: 52%;
+    justify-content: space-between;
+}
+.main  li{
+    list-style: none;
+    box-sizing: border-box;
+}
+.price {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+}
+.price input{
+    width: 2em;
+}
+.price input:focus,
+.price input:active{
+    outline: none;
+}
+.price button{
+    background-color: transparent;
+    box-sizing: border-box;
+    border: none;
+}
