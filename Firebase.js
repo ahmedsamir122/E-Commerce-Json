@@ -8,7 +8,7 @@ import {getFirestore} from 'firebase/firestore'
 const firebaseConfig = {
   apiKey: "AIzaSyBwhbp1klk9Pu9zTCJZ_qV6dPjj2NFU9YI",
   authDomain: "react-test-aefc2.firebaseapp.com",
-  databaseURL: "https://react-test-aefc2-default-rtdb.firebaseio.com",
+  databaseURL: "https://e-commerce-json.vercel.app/",
   projectId: "react-test-aefc2",
   storageBucket: "react-test-aefc2.appspot.com",
   messagingSenderId: "218274088793",
